@@ -10,8 +10,8 @@ int main(){
     r.add(Rational(5));
     r.ausgabe();
     //das gibt einen Fehler beim Linken
-    //r.add(5);
-    //r.ausgabe();
+    r.add(5);
+    r.ausgabe();
 
     return 0;
 }

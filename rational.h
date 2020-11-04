@@ -17,7 +17,7 @@ class Rational {
      // arithmetische Methoden
      // (werden später durch überladene Operatoren ergänzt)
      void add(const Rational& r);
-     void add(long a);
+     //void add(long a);
      void sub(const Rational& r);
      void mult(const Rational& r);
      void div(const Rational& r);
@@ -36,7 +36,7 @@ class Rational {
 // inline Methoden
 inline Rational::Rational()               : zaehler(0), nenner(1) {}
 inline Rational::Rational(long z, long n) : zaehler(z), nenner(n) {}
-inline Rational::Rational(long z)         : zaehler(z), nenner(1) {}
+inline Rational::Rational(long a)         : zaehler(a), nenner(1) {}
  
 inline long Rational::getZaehler() const {return zaehler;}
 inline long Rational::getNenner()  const {return nenner;}

@@ -22,5 +22,6 @@ class IntMenge {
         vector<int> v;
 };
 
+inline IntMenge::IntMenge() {}
 
 #endif
